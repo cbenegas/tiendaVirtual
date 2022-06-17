@@ -13,6 +13,7 @@ const modalProductContainer = document.querySelector('#modal-product-container')
 const divTotal = document.querySelector('#total')
 
 const btnVaciar = document.querySelector('#btn-vaciar');
+const btnComprar = document.querySelector('#btn-comprar');
 
 let products
 
@@ -133,7 +134,7 @@ const calculatedTotal = () => {
 */
 
 /* El evento tiene un delay de una tecla, por lo que filtra atrasado */
-search.addEventListener('keypress', (event) => {
+search.addEventListener('keydown', (event) => {
     const text = event.target.value.toLowerCase();
     let prodList
     if (text.length > 0){
@@ -182,8 +183,18 @@ btnVaciar.addEventListener('click', () => {
     location.reload();
 });
 
+
+btnComprar.addEventListener('click', async() => {
+    sessionStorage.clear();
+    await Swal.fire({
+        title: '¡Compra Exitosa!',
+        text: 'Muchas gracias por su compra.',
+        icon: 'success',
+        confirmButtonText: 'Cerrar'
+    })
+    setTimeout(location.reload(), 3100) ;
+})
 const setQuantity = ( q, element) => {
-    console.log(q,element)
     const {id} = element;
     products.filter(prod => {
         if ( prod.id === id ){
