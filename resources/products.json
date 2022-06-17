@@ -1,0 +1,102 @@
+[
+    {
+        "id": "p1",
+        "name": "Banana [Kg]",
+        "price": 60,
+        "realPrice": 80,
+        "image": "banana.jpg",
+        "saleOff": true,
+        "discount": 25,
+        "added": false,
+        "quantity": 0
+    },
+    {
+        "id": "p2",
+        "name": "Arandano [Kg]",
+        "price": 80,
+        "realPrice": 120,
+        "image": "arandano.jpg",
+        "saleOff": true,
+        "discount": 33,
+        "added": false,
+        "quantity": 0
+    },
+    {
+        "id": "p3",
+        "name": "Mango [Un]",
+        "price": 80,
+        "realPrice": 80,
+        "image": "mango.jpg",
+        "saleOff": false,
+        "discount": 0,
+        "added": false,
+        "quantity": 0
+    },
+    {
+        "id": "p4",
+        "name": "Manzana Golden [Kg]",
+        "price": 85,
+        "realPrice": 85,
+        "image": "manzana.jpg",
+        "saleOff": false,
+        "discount": 10,
+        "added": false,
+        "quantity": 0
+    },
+    {
+        "id": "p5",
+        "name": "Manzana Delicia [Kg]",
+        "price": 90,
+        "realPrice": 100,
+        "image": "manzana.jpg",
+        "saleOff": true,
+        "discount": 10,
+        "added": false,
+        "quantity": 0
+    },
+    {
+        "id": "p6",
+        "name": "Pimiento [Kg]",
+        "price": 90,
+        "realPrice": 90,
+        "image": "pimiento.jpg",
+        "saleOff": false,
+        "discount": 0,
+        "added": false,
+        "quantity": 0
+    },
+    {
+        "id": "p7",
+        "name": "Zandia [Un]",
+        "price": 80,
+        "realPrice": 80,
+        "image": "zandia.jpg",
+        "saleOff": false,
+        "discount": 0,
+        "added": false,
+        "quantity": 0
+    },
+    {
+        "id": "p8",
+        "name": "Acelga [Atado]",
+        "price": 60,
+        "realPrice": 60,
+        "image": "acelga.jpg",
+        "saleOff": false,
+        "discount": 0,
+        "added": false,
+        "quantity": 0
+    },
+    {
+        "id": "p9",
+        "name": "Espinaca [Atado]",
+        "price": 50,
+        "realPrice": 50,
+        "image": "acelga.jpg",
+        "saleOff": false,
+        "discount": 0,
+        "added": false,
+        "quantity": 0
+    }
+]
+
